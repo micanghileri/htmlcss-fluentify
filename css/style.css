@@ -1,0 +1,134 @@
+/* stilizzazione sito */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-full-width {
+    position: relative;
+}
+
+.blu {
+    height: 500px;
+    background-color: #0E325A;
+}
+
+.grigio {
+    height: 100px;
+    background-color: #D3D3D3;
+}
+
+.bianco {
+    height: 600px;
+    background-color: white;
+}
+
+.contenitore {
+    width: 80%;
+    max-width: 1400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /* da cancellare */
+    height: 100%;
+    background-color: orange;
+    border: 1px solid white;
+}
+
+/* stilizzazione menu */
+
+.menu {
+    width: 100%;
+    height: 80px;
+
+    /* da cancellare */
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.immagine-menu {
+    width: 20%;
+    height: 100%;
+    float: left;
+
+    /* da cancellare */
+    background-color: green;
+    border: 1px solid white;
+}
+
+.navbar-menu {
+    width: 40%;
+    height: 100%;
+    float: left;
+
+    /* da cancellare */
+    background-color: red;
+    border: 1px solid white;
+}
+
+.tasti-menu {
+    width: 40%;
+    height: 100%;
+    float: left;
+
+    /* da cancellare */
+    background-color: green;
+    border: 1px solid white;
+}
+
+/* stilizzazione prima fascia */
+
+.header {
+    width: 100%;
+    height: 420px;
+
+    /* da cancellare */
+    background-color: lightblue;
+    border: 1px solid white;
+}
+
+.blocco {
+    width: 50%;
+    height: 100%;
+}
+
+.sx {
+    float: left;
+
+    /* da cancellare */
+    background-color: lightgreen;
+    border: 1px solid white;
+}
+
+.dx {
+    float: left;
+
+    /* da cancellare */
+    background-color: lightgreen;
+    border: 1px solid white;
+}
+
+/* stilizzazione seconda fascia */
+
+
+/* stilizzazione terza fascia */
+
+.card {
+    width: 33.3333%;
+    float: left;
+
+    /* da cancellare */
+    height: 100%;
+    background-color: violet;
+    border: 1px solid white;
+}
