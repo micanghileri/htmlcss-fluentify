@@ -47,6 +47,7 @@
 .menu {
     width: 100%;
     height: 80px;
+    position: relative;
 }
 
 .immagine-menu {
@@ -86,6 +87,8 @@ nav ul li:hover {
     height: 100%;
     float: left;
     position: relative;
+    position: absolute;
+    right: 0;
 }
 
 .tasti-menu {
@@ -128,7 +131,7 @@ nav ul li:hover {
 }
 
 .bottone-menu input {
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     text-transform: uppercase;
     padding: 7px 13px 7px 13px;
@@ -143,7 +146,7 @@ nav ul li:hover {
 }
 
 .bottone-menu2 input {
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     text-transform: uppercase;
     padding: 7px 13px 7px 13px;
