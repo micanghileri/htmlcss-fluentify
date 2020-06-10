@@ -252,7 +252,7 @@ nav ul li:hover {
 .card {
     width: 33.3333%;
     float: left;
-    padding: 15px;
+    padding: 35px;
 }
 
 .immagine-card {
@@ -273,6 +273,10 @@ nav ul li:hover {
     height: 75%;
     margin-top: 25px;
     text-align: center;
+}
+
+.titolo-card {
+    height: 70px;
 }
 
 .testo-card h4 {
