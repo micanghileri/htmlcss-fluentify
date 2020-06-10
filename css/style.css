@@ -25,6 +25,7 @@
 .grigio {
     height: 100px;
     background-color: #D3D3D3;
+    position: relative;
 }
 
 .bianco {
@@ -149,6 +150,24 @@ nav ul li {
 }
 
 /* stilizzazione seconda fascia */
+
+.contenitore-testo {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.contenitore-testo h3 {
+    font-size: 25px;
+}
+
+.contenitore-testo h4 {
+    font-size: 15px;
+    color: grey;
+}
 
 
 /* stilizzazione terza fascia */
