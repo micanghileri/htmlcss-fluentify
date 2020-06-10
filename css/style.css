@@ -220,10 +220,10 @@ nav ul li:hover {
 }
 
 .dx img {
-    width: 900px;
+    width: 1000px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -120px;
 }
 
 /* stilizzazione seconda fascia */
