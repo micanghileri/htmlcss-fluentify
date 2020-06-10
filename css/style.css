@@ -250,9 +250,13 @@ nav ul li:hover {
 /* stilizzazione terza fascia */
 
 .card {
-    width: 33.3333%;
+    width: 33%;
     float: left;
-    padding: 35px;
+}
+
+.due {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .immagine-card {
