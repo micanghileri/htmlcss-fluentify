@@ -216,6 +216,14 @@ nav ul li:hover {
 
 .dx {
     float: left;
+    position: relative;
+}
+
+.dx img {
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* stilizzazione seconda fascia */
